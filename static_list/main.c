@@ -126,5 +126,8 @@ int main(int argc, const char * argv[]) {
     
     DeleteSList(L, 4);
     TraverseSList(L);
+    
+    InsertSList(L, 2, 10);
+    TraverseSList(L);
     return 0;
 }
